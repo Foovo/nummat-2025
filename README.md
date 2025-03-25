@@ -1,2 +1,3 @@
 # nummat-2025
-Numerična matematika
+Domače naloge za predmet Numerična matematika
+
