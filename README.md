@@ -1,3 +1,3 @@
-# nummat-2025
-Domače naloge za predmet Numerična matematika
+
+Domače naloge za predmet Numerična Matematika leta 2024/25
 
