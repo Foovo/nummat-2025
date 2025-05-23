@@ -1,0 +1,12 @@
+name = "integrali"
+uuid = "ad5a0501-5ec8-4144-bc22-abd5b0446da9"
+authors = ["Foovo <matek.veronika@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+QuadGK = "2.11.2"
+Test = "1.11.0"
