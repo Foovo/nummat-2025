@@ -53,14 +53,14 @@ function find_theta_at_almost_zero(times, theta_values)
 end
 
 # Plot graph of pendulum iteration time based on different starting angles
-function plot_time_based_angle()
+function plot_time_based_angle(de)
 
     angles = 1:0.001:pi
     time = []
 
     for angle in angles
 
-        solution = solve_de_dopri5(matematicno_nihalo, angle, 10)
+        solution = solve_de_dopri5(de, angle, 10)
 
         times = solution.t
         angles_theta = solution[1,:]
@@ -71,8 +71,7 @@ function plot_time_based_angle()
 
     end
 
-    p = plot(angles, time,  xlabel="Nihajni čas", ylabel="theta(t)", title="Nihajni čas glede na začetni kot")
-    savefig(p, "nihajni_cas_glede_na_kot.pdf")
+    return angles, time
     
 end
 
